@@ -34,6 +34,8 @@ def add_portfolio():
 
         save_portfolio()
 
+        #hello
+
 
 
         def remove_portfolio():
