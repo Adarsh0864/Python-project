@@ -25,7 +25,7 @@ with open('portfolio.pkl','rb')as f:
 
 def add_portfolio():
     ticker = input("Which stock do you want to add:")
-    amount = input("How many shares do you want to add :")
+    amount = input("How many shares do you want to add :, How many share you want to add into your portfolio")
 
     if ticker in portfolio.keys():
         portfolio[ticker]+=amount
