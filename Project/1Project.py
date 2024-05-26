@@ -70,6 +70,18 @@ def add_portfolio():
             sum_then= 0
 
             try:
+                for ticker in portfolio.keys():
+                    data = web.DataReader(ticker,'yahoo')
+                    price_now = data['Close'].iloc[-1]
+                    price_then = data.loc[data.index == starting_date]['Close'].values[0]
+                    sum_now +=price_now
+                    sum_then+=price_then
+
+                    print(f"Reletive Gains: {((sum_now-sum_then)/sum_then)*100}%")
+                    print(f"Absolute gains: {sum_now-sum_then}USD")
+            except IndexError:
+                print("There was no trading on that day!")
+
                       
 
 
