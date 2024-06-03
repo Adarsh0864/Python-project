@@ -17,7 +17,7 @@ def load_data(ticker1, ticker2, start, end):
 
 
 def update_plot(data, indicators, sync_axis=None):
-    df = data
+    df = data 
     gain = df.Close > df.Open
     loss = df.Open > df.Close
     width = 12 * 60 * 60 * 1000  # half day in ms
@@ -54,7 +54,7 @@ def update_plot(data, indicators, sync_axis=None):
         p.legend.click_policy = "hide"
 
     return p
-
+ 
 
 def on_button_click(main_stock, comparison_stock, start, end, indicators):
     source1, source2 = load_data(main_stock, comparison_stock, start, end)
