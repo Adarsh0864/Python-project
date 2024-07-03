@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "CodeGPT.apiKey": "CodeGPT Plus Beta",
     "java.project.sourcePaths": [
@@ -6,4 +7,8 @@
         "DSA",
         "Web Development/HTML"
     ]
+=======
+{
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+>>>>>>> c691cba350402f2f0c3f21b59abcc3cb88a8f440
 }
