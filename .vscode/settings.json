@@ -1,3 +1,9 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "java.project.sourcePaths": [
+        "Python",
+        "Java",
+        "DSA",
+        "Web Development/HTML"
+    ]
 }

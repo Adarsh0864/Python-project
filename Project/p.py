@@ -17,7 +17,7 @@ def load_data(ticker1, ticker2, start, end):
 
 
 def update_plot(data, indicators, sync_axis=None):
-    df = data
+    df = data 
     gain = df.Close > df.Open
     loss = df.Open > df.Close
     width = 12 * 60 * 60 * 1000  # half day in ms

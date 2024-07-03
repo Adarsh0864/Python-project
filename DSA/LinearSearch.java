@@ -4,7 +4,7 @@
 
 // TIme complexity of linear Search is : O(n)
 import java.util.*;
-public class LinearSearch {
+public class LinearSearch{
 
     public static int linearSearch(int numbers[],int key){
     for(int i = 0;i<numbers.length;i++){

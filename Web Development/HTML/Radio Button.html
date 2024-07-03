@@ -1,0 +1,42 @@
+<!--Radio button can only select one option-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+<body>
+    <!-- WE have to make sure that all the name attribute should be same in all the three,so that we can only select the one -->
+
+    <!-- Radio buttons are used when you want the user to select only one option from a group of choices. -->
+     
+    <form action ="/server">
+
+    <input type ="radio" id = "apple" name ="fruits-"value="apple"/>
+    <label for="apple">apple</label>
+    <br>
+
+    <input type="radio" name="fruits-" id="orange"value="orange" />
+    <label for="orange">orange</label>
+    <br>
+
+    <input type="radio"name="fruits-"id="banana" value="banana"/>
+    <label for ="banana">banana</label>
+
+
+    <div>
+        <input type="checkbox"id="math"name="subjects"value="math"/>
+        <label for="math">math</label>
+
+        <input type="checkbox"id="science"name="subjects"value="science"/>
+        <label for="science">science</label>
+
+        <input type="checkbox"id="cs"name="subjects"value="cs"/>
+        <label for="cs">cs</label>
+        <button>submit</button>
+    </div>
+</form>
+</body>
+</html>
